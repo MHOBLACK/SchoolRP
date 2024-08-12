@@ -3,6 +3,6 @@
 - Author : @MHOBLACK
 - Email : modavidblack@gmail.com
 
-## Feature
+## Features
 
 ## Hotfixs

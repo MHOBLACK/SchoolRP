@@ -1,10 +1,22 @@
-hook.Run("DarkRPStartedLoading")
+AddCSLuaFile("cl_init.lua")
+AddCSLuaFile("shared.lua")
 
-GM.Version = "1.0.0"
-GM.Name = "SchoolRP"
-GM.Author = "MHOBLACK"
+include("shared.lua")
 
-DeriveGamemode("darkrp")
-DEFINE_BASECLASS("gamemode_darkrp")
+function GM:PlayerConnect(name, ip)
+    
+    print(ip .. " - " .. name .. " connected to server.")
 
-GM.DarkRP = BaseClass
+end
+
+function GM:PlayerDisconnected(ply)
+
+    print(ip .. " - " .. ply:Name() .. " disconnected from server.")
+    
+end
+
+function GM:PlayerInitialSpawn(ply)
+    
+    print(ply:Name() .. " has spawned.")
+
+end
