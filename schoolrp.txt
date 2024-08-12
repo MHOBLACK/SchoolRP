@@ -1,0 +1,15 @@
+"darkrp"
+{
+	"base"		"darkrp"
+    "title"  "SchoolRP"
+    "version"   "1.0.0"
+    "menusystem"	"1"
+
+    "author_name"   "MHOBLACK"
+    "author_email"  ""
+    "author_url"    "https://github.com/MHOBLACK"
+
+    "icon"  ""
+    "info"  ""
+    "hide"  "0"
+}
